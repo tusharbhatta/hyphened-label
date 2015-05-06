@@ -13,6 +13,7 @@
 		1AE5F6661AF8F0FE006D8505 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F6651AF8F0FE006D8505 /* Images.xcassets */; };
 		1AE5F6691AF8F0FE006D8505 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE5F6671AF8F0FE006D8505 /* LaunchScreen.xib */; };
 		1AE5F6751AF8F0FE006D8505 /* TBHyphenedLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F6741AF8F0FE006D8505 /* TBHyphenedLabelTests.swift */; };
+		1AE5F67F1AF8F11A006D8505 /* TBHyphenedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE5F67E1AF8F11A006D8505 /* TBHyphenedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		1AE5F66E1AF8F0FE006D8505 /* TBHyphenedLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBHyphenedLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AE5F6731AF8F0FE006D8505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AE5F6741AF8F0FE006D8505 /* TBHyphenedLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBHyphenedLabelTests.swift; sourceTree = "<group>"; };
+		1AE5F67E1AF8F11A006D8505 /* TBHyphenedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TBHyphenedLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				1AE5F65E1AF8F0FE006D8505 /* AppDelegate.swift */,
 				1AE5F6601AF8F0FE006D8505 /* ViewController.swift */,
+				1AE5F67E1AF8F11A006D8505 /* TBHyphenedLabel.swift */,
 				1AE5F6621AF8F0FE006D8505 /* Main.storyboard */,
 				1AE5F6651AF8F0FE006D8505 /* Images.xcassets */,
 				1AE5F6671AF8F0FE006D8505 /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			files = (
 				1AE5F6611AF8F0FE006D8505 /* ViewController.swift in Sources */,
 				1AE5F65F1AF8F0FE006D8505 /* AppDelegate.swift in Sources */,
+				1AE5F67F1AF8F11A006D8505 /* TBHyphenedLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
